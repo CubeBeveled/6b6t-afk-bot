@@ -1,0 +1,26 @@
+{
+  "sendChatMessagesInConsole": false,
+  "playerLogger": {
+    "enabled": false,
+    "dcWebhookUrl": "https://discord.com/api/webhooks/somenumbers/someletters",
+    "enterRenderDistance": {
+      "webhookAvatarUrl": "https://mc-heads.net/avatar/%player%.png",
+      "webhookUsername": "%player%",
+      "message": "Entered render distance"
+    },
+    "exitRenderDistance": {
+      "webhookAvatarUrl": "https://mc-heads.net/avatar/%player%.png",
+      "webhookUsername": "%player%",
+      "message": "Exited render distance"
+    }
+  },
+  "bots": [
+    {
+      "username": "yo bot username",
+      "password": "yo bot password",
+      "reconnectDelay": 5500,
+      "viewDistance": "normal",
+      "antiAfk": false
+    }
+  ]
+}
