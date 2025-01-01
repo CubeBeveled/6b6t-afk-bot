@@ -1,14 +1,14 @@
 {
-  "name": "sixbee-advertising",
+  "name": "sixbee-afk-bot",
   "version": "0.0.1",
-  "description": "A bot that advertises your stuff on 6b6t",
+  "description": "A bot that joins 6b6t and stays afk",
   "main": "index.js",
   "scripts": {
     "test": "node index.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/CubeBeveled/6b6t-advertising.git"
+    "url": "git+https://github.com/CubeBeveled/6b6t-afk-bot.git"
   },
   "keywords": [
     "mineflayer"
@@ -16,9 +16,9 @@
   "author": "Beveled Cube",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/CubeBeveled/6b6t-advertising/issues"
+    "url": "https://github.com/CubeBeveled/6b6t-afk-bot/issues"
   },
-  "homepage": "https://github.com/CubeBeveled/6b6t-advertising#readme",
+  "homepage": "https://github.com/CubeBeveled/6b6t-afk-bot#readme",
   "dependencies": {
     "colors": "^1.4.0",
     "discord.js": "^14.16.3",
