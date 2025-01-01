@@ -1,5 +1,5 @@
 # 6b6t afk bot
-A bot that joins 6b6t and stays afk
+A bot that joins 6b6t and stays afk<br>
 *Only works with offline authentication accounts (cracked accounts)*
 
 # Running the bot
