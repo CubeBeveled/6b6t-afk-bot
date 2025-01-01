@@ -13,6 +13,7 @@ for (const b of config.bots) {
     reconnectDelay: b.reconnectDelay, // Info in README.md
     auth: "offline", // Use cracked accounts
     checkTimeoutInterval: 60000, // After how much time of the server not responding the bot should be considered timed out
+    antiAfk: b.antiAfk
   }
 
   bots.push(
