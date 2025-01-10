@@ -126,7 +126,7 @@ class bot {
     });
 
     this.bot.on("entitySpawn", (entity) => {
-      if (entity.type == "player" && entity.username !== this.botOptions.username) {
+      if (this.config.playerLogger.enabled && entity.type == "player" && entity.username !== this.botOptions.username) {
         console.log(color.gray(`Player ${entity.username} entered view distance.`));
 
         webhook.send({
@@ -138,7 +138,7 @@ class bot {
     });
 
     this.bot.on("entityGone", (entity) => {
-      if (entity.type == "player" && entity.username !== this.botOptions.username) {
+      if (this.config.playerLogger.enabled && entity.type == "player" && entity.username !== this.botOptions.username) {
         console.log(color.gray(`Player ${entity.username} exited view distance.`));
 
         webhook.send({
